@@ -7,17 +7,17 @@ assignees: ''
 
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
+**As a** customer
+**I need** the ability to create an account
+**So that** I can log in and use the service  
    
  ### Details and Assumptions
- * [document what you know]
+ * User can register with email and password
    
  ### Acceptance Criteria  
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+Given a new user visits the registration page
+When the user submits valid information
+Then the account should be created successfully
  ```
